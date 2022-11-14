@@ -1,0 +1,12 @@
+# 不打印banner
+mybatis-plus:
+  global-config:
+    banner: false
+# pageHelper。数据库类型设置为mysql
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  # pageSize为0是否返回所有
+  pageSizeZero: true
+  params: count=countSql

@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: fool-frame-haha
+# 不打印banner
+mybatis-plus:
+  global-config:
+    banner: false
+# pageHelper。数据库类型设置为mysql
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  pageSizeZero: true
+  params: count=countSql
